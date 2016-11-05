@@ -77,7 +77,7 @@ The first file, `batch_payment.csv`, contains past data that can be used to trac
 
 Data in the second file, `stream_payment.csv` should be used to determine whether there's a possibility of fraud and a warning should be triggered.
 
-You should assume that each new line of `stream_payment.csv` corresponds to a new, valid PayMo payment record - regardless of being suspicious - and design your program to handle a text file with a large number of payments. 
+You should assume that each new line of `stream_payment.csv` corresponds to a new, valid PayMo payment record -- regardless of being 'unverified' -- and design your program to handle a text file with a large number of payments. 
 
 ###Output
 
