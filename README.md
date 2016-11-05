@@ -250,7 +250,7 @@ Unfortunately, we receive hundreds of submissions in a very short time and are u
 No, your solution doesn't necessarily need to include multi-threading - there are many solutions that don't require multiple threads/cores or any distributed systems, but instead use efficient data structures.  
 
 * *Do I need to account for an updating `stream_payment.csv` file?*   
-No, your solution doesn't have to re-process `stream_payment.csv` as if it were updating in real-time. If you were doing this project as a data engineer in industry, you would probably connect to a RESTful API to get one transaction at a time, but this is beyond the scope of this challenge. Instead, you should imagine that each line corresponds to a new sequential transaction. 
+No, your solution doesn't have to re-process `stream_payment.csv` multiple times. If you were doing this project as a data engineer in industry, you would probably connect to a RESTful API to get one transaction at a time, but this is beyond the scope of this challenge. Instead, you should imagine that each line corresponds to a new sequential transaction. 
 
 * *What should the format of the output be?*  
 In order to be tested correctly, you must use the format described above. You can ensure that you have the correct format by using the testing suite we've included. If you are still unable to get the correct format from the debugging messages in the suite, please email us at cc@insightdataengineering.com.
