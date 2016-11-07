@@ -237,7 +237,7 @@ While you're welcome to do so, your code will be tested on a single machine so t
 * *What sort of system should I use to run my program on (Windows, Linux, Mac)?*  
 You may write your solution on any system, but your source code should be portable and work on all systems. Additionally, your `run.sh` must be able to run on either Unix or Linux, as that's the system that will be used for testing. Linux machines are the industry standard for most data engineering teams, so it is helpful to be familiar with this. If you're currently using Windows, we recommend using tools like Cygwin or Docker, or a free online IDE such as [Cloud9](http://c9.io).  
 
-* *How to handle invalid lines?*
+* *How to handle invalid lines?*  
 Firstly it should be noted that the input files are formatted as per Unix/Linux standards where newlines are dictated by a newline character ('\n'). If you are running your code on Windows or specifically detecting for carriage return ('\r') make sure that you update your code to use the correct line delimiter otherwise you may be virtually creating invalid lines. If you are confident this is not the cause of your invalid lines, please let us know at cc@insightdataengineering.com.
   
 * *Can I use pre-built packages, modules, or libraries?*   
