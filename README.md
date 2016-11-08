@@ -26,7 +26,7 @@ For this reason, User A and User B should be able to pay each other without trig
 
 <img src="./images/friend-of-a-friend1.png" width="500">
 
-To account for this, PayMo would like you to also implement this feature. When users make a payment, they'll be notified of when the other user is outside of their "2nd-degree network".
+To account for this, PayMo would like you to also implement this feature. When users make a payment, they'll be notified when the other user is outside of their "2nd-degree network".
 
 * "unverified: This user is not a friend or a "friend of a friend". Are you sure you would like to proceed with this payment?"
 
